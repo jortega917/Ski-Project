@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_Interested_In__c</fullName>
+    <label>Products Interested In</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Skis</fullName>
+                <default>false</default>
+                <label>Skis</label>
+            </value>
+            <value>
+                <fullName>Bicycles</fullName>
+                <default>false</default>
+                <label>Bicycles</label>
+            </value>
+            <value>
+                <fullName>Ski Boots</fullName>
+                <default>false</default>
+                <label>Ski Boots</label>
+            </value>
+            <value>
+                <fullName>Ski Poles</fullName>
+                <default>false</default>
+                <label>Ski Poles</label>
+            </value>
+            <value>
+                <fullName>Helmets</fullName>
+                <default>false</default>
+                <label>Helmets</label>
+            </value>
+            <value>
+                <fullName>Goggles</fullName>
+                <default>false</default>
+                <label>Goggles</label>
+            </value>
+            <value>
+                <fullName>Snow Suits</fullName>
+                <default>false</default>
+                <label>Snow Suits</label>
+            </value>
+            <value>
+                <fullName>Long Johns</fullName>
+                <default>false</default>
+                <label>Long Johns</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
