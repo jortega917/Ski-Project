@@ -4,6 +4,21 @@
     <active>true</active>
     <label>Manufacturer</label>
     <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Season Pass Holder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Products_Interested_In__c</picklist>
         <values>
             <fullName>Bicycles</fullName>
