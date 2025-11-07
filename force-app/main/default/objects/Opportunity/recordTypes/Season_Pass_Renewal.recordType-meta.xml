@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Season_Pass_Renewal</fullName>
+    <active>true</active>
+    <businessProcess>Season Pass Renewal Process</businessProcess>
+    <label>Season Pass Renewal</label>
+</RecordType>
