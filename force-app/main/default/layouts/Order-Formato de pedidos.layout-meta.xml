@@ -38,6 +38,14 @@
                 <behavior>Readonly</behavior>
                 <field>ActivatedById</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Generated_Invoice__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Product__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -150,6 +158,10 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Invoice__c.Source_Order__c</relatedList>
     </relatedLists>
     <relatedObjects>ContractId</relatedObjects>
     <relatedObjects>AccountId</relatedObjects>
