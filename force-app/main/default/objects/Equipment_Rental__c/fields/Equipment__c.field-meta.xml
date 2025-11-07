@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Equipment</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Equipment__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Rental_Fleet</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Equipment__c</referenceTo>
+    <relationshipLabel>Equipment Rentals</relationshipLabel>
+    <relationshipName>Equipment_Rentals</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
