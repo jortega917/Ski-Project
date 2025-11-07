@@ -2,12 +2,6 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Maintenance Queue</name>
-    <queueMembers>
-        <users>
-            <user>cadmin.7trur7skuqzo@copado.com.train.181818</user>
-            <user>release.6gnk0wqry5i6@copado.com.train.181818</user>
-        </users>
-    </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>
