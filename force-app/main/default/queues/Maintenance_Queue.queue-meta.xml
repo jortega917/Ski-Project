@@ -4,10 +4,8 @@
     <name>Maintenance Queue</name>
     <queueMembers>
         <users>
-            <user>enyhus@copado.com.train.181818</user>
-            <user>jortega@copado.com.evandev</user>
-            <user>rduplantis@copado.com.evandev</user>
-            <user>mcardenasretamozo@copado.com.evandev</user>
+            <user>cadmin.7trur7skuqzo@copado.com.train.181818</user>
+            <user>release.6gnk0wqry5i6@copado.com.train.181818</user>
         </users>
     </queueMembers>
     <queueSobject>
