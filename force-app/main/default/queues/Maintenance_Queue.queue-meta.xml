@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Maintenance Queue</name>
+    <queueMembers>
+        <users>
+            <user>enyhus@copado.com.train.181818</user>
+            <user>jortega@copado.com.evandev</user>
+            <user>rduplantis@copado.com.evandev</user>
+            <user>mcardenasretamozo@copado.com.evandev</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
